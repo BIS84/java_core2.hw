@@ -3,14 +3,14 @@ class Robot implements Run, Jump {
     String name;
     String model;
     int serialNumber ;
-    boolean run;
-    boolean jump;
+    int runningLength;
+    float jumpHeight;
 
-    Robot(String name, String model, int serialNumber, boolean run, boolean jump) {
+    Robot(String name, String model, int serialNumber, int runningLength, float jumpHeight) {
         this.name = name;
         this.model = model;
         this.serialNumber = serialNumber;
-        this.run = run;
-        this.jump = jump;
+        this.runningLength = runningLength;
+        this.jumpHeight = jumpHeight;
     }
 }

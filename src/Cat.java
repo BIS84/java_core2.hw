@@ -3,14 +3,14 @@ class Cat implements Run, Jump {
     String name;
     String color;
     int age;
-    boolean run;
-    boolean jump;
+    int runningLength;
+    float jumpHeight;
 
-    Cat(String name, String color, int age, boolean run, boolean jump) {
+    Cat(String name, String color, int age, int runningLength, float jumpHeight) {
         this.name = name;
         this.color = color;
         this.age = age;
-        this.run = run;
-        this.jump = jump;
+        this.runningLength = runningLength;
+        this.jumpHeight = jumpHeight;
     }
 }

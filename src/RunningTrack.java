@@ -1,19 +1,20 @@
-public class RunningTrack implements Run {
+class RunningTrack implements Run {
 
     String name;
-    int runLenght;
+    int runningLength;
     int i;
+    int runningTrackLength;
     Run p;
-    boolean run;
 
-    void runningTrack(Run[] runningPersons, String name, int i, boolean run) {
+    void runningTrack(Run[] runningPersons, String name, int i, int runningLength) {
 
         this.name = name;
         this.i = i;
-        this.run = run;
+        this.runningLength = runningLength;
         p = runningPersons[i];
+        runningTrackLength = 3000;
 
-        if (run) {
+        if (runningLength >= runningTrackLength) {
             p.run(name);
         }
         else {
@@ -21,3 +22,4 @@ public class RunningTrack implements Run {
         }
     }
 }
+
