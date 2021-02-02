@@ -1,3 +1,7 @@
+package HW1;
+
+import HW1.Run;
+
 class RunningTrack implements Run {
 
     String name;

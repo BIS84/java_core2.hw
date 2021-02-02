@@ -1,3 +1,7 @@
+package HW1;
+
+import HW1.Jump;
+
 class Robot implements Run, Jump {
 
     String name;

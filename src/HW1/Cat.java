@@ -1,3 +1,5 @@
+package HW1;
+
 class Cat implements Run, Jump {
 
     String name;

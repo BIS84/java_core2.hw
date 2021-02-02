@@ -1,3 +1,5 @@
+package HW1;
+
 class Human implements Run, Jump {
 
     String name;

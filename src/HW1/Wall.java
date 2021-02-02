@@ -1,3 +1,7 @@
+package HW1;
+
+import HW1.Jump;
+
 class Wall implements Jump {
 
     String name;

@@ -1,3 +1,5 @@
+package HW1;
+
 interface Run {
 
     default void run(String name) {
