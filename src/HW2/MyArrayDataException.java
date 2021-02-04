@@ -1,7 +1,11 @@
 package HW2;
 
 public class MyArrayDataException extends Exception {
-    public MyArrayDataException(String message) {
-        super(message);
+    public int i;
+    public int j;
+
+    MyArrayDataException(int i, int j) {
+        this.i = i;
+        this.j = j;
     }
 }
