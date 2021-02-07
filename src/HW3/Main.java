@@ -14,15 +14,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Object[] str = new Object[]{"A", "B", "C", "D", "A"};
+
+        Object[] str = new Object[]{"A", "B", "C", "D", "A", 2, 4};
         for (Object o : str) {
-            System.out.print(o);
+            System.out.print(o + " ");
         }
         System.out.println();
-        swappingArrayElements(str, 1, 3);
+        swappingArrayElements(str, 1, 5);
         for (Object o : str) {
-            System.out.print(o);
+            System.out.print(o + " ");
         }
-    }
+        System.out.println();
 
+    }
 }
