@@ -1,6 +1,7 @@
 package HW3;
 
 abstract class Fruit {
+
     private float weight;
 
     public Fruit(float weight) {

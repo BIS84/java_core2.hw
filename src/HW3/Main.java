@@ -1,5 +1,7 @@
 package HW3;
 
+import static java.awt.Color.orange;
+
 public class Main {
 
     public static void swappingArrayElements(Object[] arr, int index1, int index2) {
@@ -12,6 +14,8 @@ public class Main {
             System.out.println("Индекс за пределами массива.");
         }
     }
+
+
 
     public static void main(String[] args) {
 
@@ -53,6 +57,10 @@ public class Main {
 
         System.out.println(boxApple2.compare(boxApple3));
         System.out.println(boxApple1.compare(boxOrange1));
+
+        System.out.println();
+        System.out.println("pourFruit");
+        boxApple1.pourFruit(boxApple2);
 
     }
 }
