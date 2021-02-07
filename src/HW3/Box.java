@@ -7,7 +7,7 @@ public class Box<T extends Fruit> {
 
     private ArrayList<T> fruits;
 
-    public Box(T fruits) {
+    public Box(T... fruits) {
         this.fruits = new ArrayList<>(Arrays.asList(fruits));
     }
 
@@ -16,6 +16,10 @@ public class Box<T extends Fruit> {
         float weight = 0;
         for (T fruits: fruits) weight += fruits.getWeight();
         return weight;
+    }
+
+    public boolean compare(Box box) {
+        return this.getWeight() == box.getWeight();
     }
 
 }
