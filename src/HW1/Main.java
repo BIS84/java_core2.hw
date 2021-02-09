@@ -1,3 +1,9 @@
+package HW1;
+
+import HW1.Cat;
+import HW1.Human;
+import HW1.Jump;
+
 public class Main {
 
     public static void main(String[] args) {
